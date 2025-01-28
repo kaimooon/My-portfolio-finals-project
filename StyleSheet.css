@@ -1,0 +1,412 @@
+body{
+    background-color: #f3f3f3;
+}
+
+#main_button{
+    position: absolute;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-size: large;
+    left: 65px;
+    top: 25px;
+}
+
+#main_button2{
+    position: absolute;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 200;
+    font-size: large;
+    left: 220px;
+    top: 25px;
+}
+
+#main_button3{
+    position: absolute;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    background-color: #9b5de5;
+    border: none;
+    border-radius: 50%;
+    left: 25px;
+    top: 22px;
+}
+
+#selfie{
+    position: absolute;
+    height: 470px;
+    width: 470px;
+    border-radius: 50%;
+    object-fit: cover;
+    top: 200px;
+    left: 490px;
+}
+
+#name_h1{
+    position: absolute;
+    top: 150px;
+    left: 1000px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 300%;
+}
+
+#resume_button{
+    position: absolute;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 200;
+    font-size: large;
+    left: 1680px;
+    top: 25px;
+}
+
+#resume_button:hover {
+    color: #9b5de5; 
+}
+
+.vertical-line {
+    position: absolute;
+    width: 1px; 
+    height: 30px; 
+    background-color: #333; 
+    left: 1780px; 
+    top: 22px; 
+}
+
+#projects_button{
+    position: absolute;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 200;
+    font-size: large;
+    left: 1810px;
+    top: 25px;
+}
+
+#projects_button:hover {
+    color: #9b5de5; 
+}
+
+#aboutme{
+    position: absolute;
+    top: 300px;
+    left: 1000px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#aboutme_text{
+    position: absolute;
+    top: 400px;
+    left: 1000px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    text-align: justify;
+  
+}
+
+
+
+#email{
+    position: absolute;
+    top: 80px;
+    left: 70px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.bold-name {
+    font-weight: bold;
+}
+
+#contact{
+    position: absolute;
+    top: 50px;
+    left:70px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#contact_logo{
+    position: absolute;
+    background-image: url(contact_logo.png);
+    width: 20px;
+    height: 20px;
+    border: none;
+    border-radius: 50%;
+    top: 67px;
+    left: 45px;
+}
+
+#email_logo{
+    position: absolute;
+    background-image: url(email_logo.png);
+    width: 25px;
+    height: 25px;
+    border: none;
+    border-radius: 50%;
+    top: 94px;
+    left: 43px;
+}
+
+a {
+ color: black;
+}
+
+#FB_button{
+    position: absolute;
+    background-image: url(facebook_logo.png);
+    background-size: 230%;
+    background-position: center; 
+    top: 650px;
+    left: 1000px;
+    width: 100px;               
+    height: 100px;
+    border: none;              
+    border-radius: 50%; 
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+#insta_button{
+    position: absolute;
+    background-image: url(insta_logo.png);
+    background-size: 170%;
+    background-position: center; 
+    top: 650px;
+    left: 1130px;
+    width: 100px;               
+    height: 100px;
+    border: none;              
+    border-radius: 50%; 
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+#github_button{
+    position: absolute;
+    background-image: url(github_logo.png);
+    background-size: 180%;
+    background-position: center; 
+    top: 650px;
+    left: 1260px;
+    width: 100px;               
+    height: 100px;
+    border: none;              
+    border-radius: 50%; 
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+#proj1_h1{
+    position: absolute;
+    top: 230px;
+    left: 330px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#image-container {
+    position: relative;
+    width: 600px;
+    height: 300px;
+    overflow: hidden;
+    margin: 50px auto;
+    top: 300px;
+    left: 400px;
+}
+
+#image {
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s ease; 
+}
+
+#left-btn, #right-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+#left-btn {
+    left: 10px;
+}
+
+#right-btn {
+    right: 10px;
+}
+
+#proj1_desc{
+    position: absolute;
+    top: 390px;
+    left: 300px;
+    font-size: large;
+}
+
+#proj1link_button{
+    position: absolute;
+    border: 2px solid #333;
+    border-radius: 20px;
+    padding: 5px 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    left: 300px;
+    top: 620px;
+    text-decoration: none;
+    background-color: #e6e6fa;
+}
+
+#proj2_h1{
+    position: absolute;
+    top: 760px;
+    left: 322px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#image-container2 {
+    position: relative;
+    width: 550px;
+    height: 300px;
+    overflow: hidden;
+    margin: 50px auto;
+    top: 500px; 
+    left: 400px;
+}
+
+#image-container2 #image2 {
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s ease;
+}
+
+#image-container2 #left-btn2, #image-container2 #right-btn2 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+#image-container2 #left-btn2 {
+    left: 10px;
+}
+
+#image-container2 #right-btn2 {
+    right: 10px;
+}
+
+#proj_page{
+    min-height: 190vh;
+    padding-bottom: 100px;
+}
+
+#proj2_desc{
+    position: absolute;
+    top: 930px;
+    left: 300px;
+    font-size: large;
+}
+
+#proj2link_button{
+    position: absolute;
+    border: 2px solid #333;
+    border-radius: 20px;
+    padding: 5px 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    left: 300px;
+    top: 1140px;
+    text-decoration: none;
+    background-color: #e6e6fa;
+}
+
+#proj3_h1{
+    position: absolute;
+    top: 1300px;
+    left: 322px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#image-container3 {
+    position: relative;
+    width: 580px;
+    height: 500px;
+    overflow: hidden;
+    margin: 50px auto;
+    top: 620px; 
+    left: 400px;
+}
+
+#image-container3 #image3 {
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s ease;
+}
+
+#image-container3 #left-btn3, #image-container3 #right-btn3 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+#image-container3 #left-btn3 {
+    left: 10px;
+}
+
+#image-container3 #right-btn3 {
+    right: 10px;
+}
+
+#proj3_desc{
+    position: absolute;
+    top: 1500px;
+    left: 300px;
+    font-size: large;
+}
+
+#proj3link_button{
+    position: absolute;
+    border: 2px solid #333;
+    border-radius: 20px;
+    padding: 5px 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    left: 300px;
+    top: 1605px;
+    text-decoration: none;
+    background-color: #e6e6fa;
+}
+
+#my_resume{
+    position: absolute;
+    height: 900px;
+    width: 650px;
+    top: 100px;
+    left: 600px;
+}
